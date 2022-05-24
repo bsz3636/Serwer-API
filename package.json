@@ -1,11 +1,11 @@
 {
-  "name": "RestAPI",
+  "name": "api",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Beata Karwowska",
   "license": "MIT",
   "scripts": {
-    "start": "npx nodemon server.js"
+    "start": "npx nodemon server.js",
+    "build": "cd client && yarn install && yarn build"
   },
   "dependencies": {
     "cors": "^2.8.5",
